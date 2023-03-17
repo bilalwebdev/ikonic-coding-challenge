@@ -17,7 +17,6 @@
                 </div>
             </div>
         @endif
-        {{-- <x-dashboard /> --}}
         <x-network_connections :users="$users" :sentreqs="$sentRequests" :receivereqs="$receivedRequests" :connections="$myConnections" />
     </div>
 @endsection
